@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -13,28 +14,35 @@
 }
 
 
+
 .logo img {
     vertical-align: bottom;
 }
+
 
 
 h1 {
     font-size: 50px;
 }
 
+
+
 h1, h2 {
-    display: inline;
-    
+    display: inline;   
 }
+
 
 
 header {
     background-color: #ffffff;
 }
 
+
+
 body {
     background-color: #f6f8f9;
 }
+
 
 
 .container {
@@ -47,9 +55,11 @@ body {
 }
 
 
+
 .main-header {
     height: 55px;
 }
+
 
 
 .add-button, input {
@@ -57,6 +67,7 @@ body {
     margin-top: 15px; 
     border-radius: 5px;
 }
+
 
 
 .add-button {
@@ -67,6 +78,7 @@ body {
 }
 
 
+
 input {
     width: 120px;
     border: 1px solid #c1c1c1;
@@ -74,13 +86,17 @@ input {
 }
 
 
+
 hr {
     border: 2px solid #f6f8f9;
 }
 
+
+
 .add-button, .list-title, .list-element {
     margin-left: 70px;
 }
+
 
 
 ul {
@@ -88,14 +104,18 @@ ul {
 }
 
 
+
 .list {
     margin-top: 50px;
 }
 
 
+
 .list-element {
     margin-top: 20px;
 }
+
+
 
 .circle {
    width: 20px;
@@ -106,9 +126,11 @@ ul {
 }
 
 
+
 .symbol {
     font-size: 10px;
 }
+
 
 
 .circle.positive {
@@ -116,25 +138,32 @@ ul {
 }
 
 
+
 .circle.negative {
     border: 2px solid #eb6b64;
 }
+
+
 
 .symbol.positive {
     color: #a3dcd0;
 }
 
 
+
 .symbol.negative {
     color: #eb6b64;
 }
+
+
 
 .text-element {
     display: inline-block;
     margin-left: 5px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
 }
+
 
 
 .badge {
@@ -147,9 +176,11 @@ ul {
 }
 
 
+
 .badge.editorial {
     background-color: #45abea;
 }
+
 
 
 .small-text {
@@ -157,9 +188,11 @@ ul {
 }
 
 
+
 .badge.q1-goals {
     background-color: #9c72e4;
 }
+
 
 
 .badge.recruiting {
@@ -167,14 +200,17 @@ ul {
 }
 
 
+
 .badge.mobile {
     background-color: #f29e33;
 }
 
 
+
 .badge.website {
     background-color: #d863a1;
 }
+
 
 
 .badge.sales {
