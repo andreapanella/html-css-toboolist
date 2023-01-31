@@ -13,7 +13,7 @@
 }
 
 
-h1 {
+h1, h2 {
     display: inline-block;
     
 }
@@ -51,7 +51,6 @@ main {
     color: #ffffff;  
     background-color: #47adf1;
     border: none;
-    margin-left: 70px;
 }
 
 
@@ -66,12 +65,66 @@ hr {
     background-color: #f6f8f9;
 }
 
+.add-button, .list-title, .list-element {
+    margin-left: 70px;
+}
+
+
+.list {
+    margin-top: 50px;
+}
+
+
+.list-element {
+    margin-top: 20px;
+}
+
+.circle {
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   border: 2px solid #a3dcd0; 
+   color: #a3dcd0;
+   text-align: center;
+   display: inline-block;
+}
+
+
+.symbol {
+    font-size: 10px;
+}
+
+
+.text-element {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.badge {
+    display: inline-block;
+    height: 28px;
+    background-color: #45abea;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    color: #ffffff;
+}
+
+
+.small-text {
+    font-size: 14px;
+}
+
+
+
+
 /* Utilities */
 
     /* Colori */
 
-        /* - button main-header #47adf1 */
-        /* - check positivo #a3dcd0 */
         /* - check negativo #eb6b64 */
         /* - banner "editorial" #45abea */
         /* - banner "Q1 Goals" #9c72e4 */
@@ -83,7 +136,6 @@ hr {
 
     /* Entities */
 
-        /* - freccia in giù &#9660; */
         /* - checkmark positivo &check; */
         /* - checkmark negativo &#10005; */
 
