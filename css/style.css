@@ -19,7 +19,11 @@ h1, h2 {
 }
 
 
-main {
+header {
+    background-color: #ffffff;
+}
+
+body {
     background-color: #f6f8f9;
 }
 
@@ -28,6 +32,9 @@ main {
     width: 60%;
     background-color: #ffffff;
     margin: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-bottom: 50px;
 }
 
 
