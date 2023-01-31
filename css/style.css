@@ -21,7 +21,6 @@ h1, h2 {
 
 main {
     background-color: #f6f8f9;
-    height: 700px;
 }
 
 
@@ -154,6 +153,14 @@ hr {
 }
 
 
+.badge.website {
+    background-color: #d863a1;
+}
+
+
+.badge.sales {
+    background-color: #b0c926;
+}
 /* Utilities */
 
     /* Colori */
