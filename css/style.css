@@ -21,21 +21,50 @@ h1 {
 
 main {
     background-color: #f6f8f9;
+    height: 700px;
 }
 
 
 .container {
     width: 70%;
+    /* height: 550px; */
     background-color: #ffffff;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     margin: auto;
+}
+
+
+.main-header {
+    height: 55px;
+}
+
+
+.add-button, input {
+    height: 30px; 
+    margin-top: 10px; 
+    border-radius: 5px;
+}
+
+
+.add-button {
+    width: 90px;
+    color: #ffffff;  
+    background-color: #47adf1;
+    border: none;
+    margin-left: 70px;
+}
+
+
+input {
+    width: 120px;
+    border: 1px solid #c1c1c1;
+    text-align: center;
 }
 
 /* Utilities */
 
     /* Colori */
 
-        /* - sfondo grigio #f6f8f9 */
         /* - button main-header #47adf1 */
         /* - check positivo #a3dcd0 */
         /* - check negativo #eb6b64 */
