@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Utilities */
+
+    /* Colori */
+
+        /* - sfondo grigio #f6f8f9 */
+        /* - button main-header #47adf1 */
+        /* - check positivo #a3dcd0 */
+        /* - check negativo #eb6b64 */
+        /* - banner "editorial" #45abea */
+        /* - banner "Q1 Goals" #9c72e4 */
+        /* - banner "Recruiting" #63bfa8 */
+        /* - banner "Mobile" #f29e33 */
+        /* - banner "Website" #d863a1 */
+        /* - banner "Sales" #b0c926 */
+    
+
+    /* Entities */
+
+        /* - freccia in giù &#9660; */
+        /* - checkmark positivo &check; */
+        /* - checkmark negativo &#10005; */
+
+
