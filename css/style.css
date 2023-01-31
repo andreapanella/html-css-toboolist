@@ -83,8 +83,6 @@ hr {
    width: 20px;
    height: 20px;
    border-radius: 50%;
-   border: 2px solid #a3dcd0; 
-   color: #a3dcd0;
    text-align: center;
    display: inline-block;
 }
@@ -94,6 +92,24 @@ hr {
     font-size: 10px;
 }
 
+
+.circle.positive {
+    border: 2px solid #a3dcd0; 
+}
+
+
+.circle.negative {
+    border: 2px solid #eb6b64;
+}
+
+.symbol.positive {
+    color: #a3dcd0;
+}
+
+
+.symbol.negative {
+    color: #eb6b64;
+}
 
 .text-element {
     display: inline-block;
@@ -106,11 +122,15 @@ hr {
 .badge {
     display: inline-block;
     height: 28px;
-    background-color: #45abea;
     border-radius: 20px;
     padding: 5px 10px;
     margin-left: 5px;
     color: #ffffff;
+}
+
+
+.badge.editorial {
+    background-color: #45abea;
 }
 
 
@@ -119,24 +139,31 @@ hr {
 }
 
 
+.badge.q1-goals {
+    background-color: #9c72e4;
+}
+
+
+.badge.recruiting {
+    background-color: #63bfa8;
+}
+
+
+.badge.mobile {
+    background-color: #f29e33;
+}
 
 
 /* Utilities */
 
     /* Colori */
 
-        /* - check negativo #eb6b64 */
-        /* - banner "editorial" #45abea */
-        /* - banner "Q1 Goals" #9c72e4 */
-        /* - banner "Recruiting" #63bfa8 */
-        /* - banner "Mobile" #f29e33 */
         /* - banner "Website" #d863a1 */
         /* - banner "Sales" #b0c926 */
     
 
     /* Entities */
 
-        /* - checkmark positivo &check; */
         /* - checkmark negativo &#10005; */
 
 
