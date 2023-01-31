@@ -61,6 +61,11 @@ input {
     text-align: center;
 }
 
+
+hr {
+    background-color: #f6f8f9;
+}
+
 /* Utilities */
 
     /* Colori */
